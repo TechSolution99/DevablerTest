@@ -1,0 +1,38 @@
+.experience {
+  position: relative;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.experience:hover {
+  border: 2px dashed #eee;
+  padding: 0px;
+}
+
+.experience:hover .experience_button {
+  display: block;
+}
+
+.experience_button {
+  z-index: 1;
+  position: absolute;
+  right: 0px;
+  top: -14px;
+  display: none;
+}
+
+.experience_button img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.experience_delete {
+  background-color: red;
+}
+
+.experience_add {
+  background-color: green;
+}

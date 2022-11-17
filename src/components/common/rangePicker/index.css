@@ -1,0 +1,8 @@
+.range_picker {
+  display: flex;
+}
+
+.connector {
+  padding-left: 4px;
+  padding-right: 4px;
+}

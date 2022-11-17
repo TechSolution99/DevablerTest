@@ -1,0 +1,31 @@
+.layout {
+  width: 693px;
+  height: 1023px;
+  padding: 50px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.paper {
+  width: 693px;
+  height: 1023px;
+  padding: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+  box-shadow: rgb(0 0 0 / 20%) 0.2rem 0.2rem 3rem 0;
+}
+
+.paper_container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.name_input {
+  font-size: 26pt;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  color: rgb(255, 100, 124);
+}

@@ -1,0 +1,5 @@
+.month_picker .calendar {
+  position: absolute;
+  z-index: 100;
+  right: 0px;
+}

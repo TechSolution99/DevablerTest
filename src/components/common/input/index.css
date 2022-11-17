@@ -1,0 +1,23 @@
+.custom_input input {
+  border: 0px;
+  outline: 0px;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  width: 300px;
+}
+
+.custom_input span {
+  padding: 4px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.custom_input input:focus {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+}

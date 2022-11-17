@@ -1,0 +1,21 @@
+.custom_select input {
+  width: 100%;
+  border: 0px;
+  outline: 0px;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.custom_select input:focus {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+}
+
+.custom_select .item:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+}

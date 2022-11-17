@@ -1,0 +1,15 @@
+textarea.custom_textarea {
+  border: 0px;
+  outline: 0px;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+  resize: none;
+}
+
+textarea.custom_textarea:focus {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+}
