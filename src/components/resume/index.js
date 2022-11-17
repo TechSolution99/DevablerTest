@@ -111,13 +111,39 @@ function Resume() {
           setValue={setEmail}
         />
       </div>
-      <div>
-        <Input
-          placeholder='Social Links'
-          label='Social Links'
-          value={link}
-          setValue={setLink}
-        />
+      <div style={{marginTop: '20px'}}>
+        <div>
+          <Input
+            placeholder='GitHub'
+            label='GitHub'
+            value={link}
+            setValue={setLink}
+          />
+        </div>
+        <div>
+          <Input
+            placeholder='LinkedIn'
+            label='LinkedIn'
+            value={link}
+            setValue={setLink}
+          />
+        </div>
+        <div>
+          <Input
+            placeholder='Facebook'
+            label='Facebook'
+            value={link}
+            setValue={setLink}
+          />
+        </div>
+        <div>
+          <Input
+            placeholder='Twitter'
+            label='Twitter'
+            value={link}
+            setValue={setLink}
+          />
+        </div>
       </div>
       <div>
         <h4
